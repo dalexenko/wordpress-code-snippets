@@ -1,3 +1,4 @@
+<?php
 function the_pagination() {
         global $wp_query;
         $big = 999999999;
