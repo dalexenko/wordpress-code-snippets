@@ -63,7 +63,8 @@ $product->get_default_attributes();
  
 // Get Product Taxonomies
  
-$product->get_categories();
+$product->get_categories(); // deprecated
+wc_get_product_category_list($product->get_ID());
 $product->get_category_ids();
 $product->get_tag_ids();
  
