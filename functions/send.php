@@ -49,10 +49,10 @@ if(empty($_POST['phone']) or strlen($_POST['phone'])<17 or strlen($_POST['phone'
 
 		$token = "";
 		$chat_id = "";
-		//$chat_id_copy = "356819341";
+		$chat_id_copy = "";
 
-		 //sendMessageToTelegram($chat_id, $text, $token);
-		 //sendMessageToTelegram($chat_id_copy, $text, $token);
+		 sendMessageToTelegram($chat_id, $text, $token);
+		 sendMessageToTelegram($chat_id_copy, $text, $token);
 		 
 		// bitrix24 lead
 
