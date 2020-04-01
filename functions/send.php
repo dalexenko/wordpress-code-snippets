@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 function writeToLog($data, $title = '') {
  $log = "\n------------------------\n";
